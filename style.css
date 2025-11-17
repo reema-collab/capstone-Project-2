@@ -1,0 +1,206 @@
+.body{
+    position: absolute;
+    text-align: center;
+}
+.top-container{
+    position: relative;
+    background-color: #e4f9f5;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    top: 250px;
+    text-align: center;
+    color: #11cdd4;
+    font-family: sacramento,cursive;
+    font-weight: bold;
+    font-size: 5rem;
+
+}
+h2{
+    text-align: center;
+    font-family: montserrat,sans-serif;
+    color: #11cdd4;
+    font-size: 2rem;
+}
+.mountain{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 30%
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    
+    bottom: 300px;
+}
+.profile {
+  text-align: center;          /* Centers all content */
+  margin: 100px auto;          /* Adds spacing above & below */
+  width: 80%;                  /* Optional width */
+}
+.reema-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;          /* Circle image */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;         /* Centers image + adds space below */
+}
+
+.profile h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;              /* Same color as Angela Yu's site */
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.profile .intro {
+  width: 50%;                  /* Keeps text narrow like example */
+  margin: 0 auto;              /* Centers paragraph block */
+  line-height: 1.8;            /* More readable */
+  font-size: 1.1rem;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+hr {
+  margin: 40px auto;
+  text-align: center;
+  color: #a0d9d9;
+  font-size: 3rem;
+  letter-spacing: 8px;
+}
+/* Skills Section */
+.skills {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Skills title */
+.skills h2 {
+  font-size: 2.8rem;
+  color: #66bfbf;
+  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Parent: Grid Layout */
+.parent {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 60px;         /* Space between rows */
+  column-gap: 40px;      /* Space between columns */
+  align-items: center;
+}
+
+/* Images */
+.typing img,
+.chillies img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Text Blocks */
+.coding, .hot-wings {
+  text-align: left;
+}
+
+.coding h3, .hot-wings h3 {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.coding p, .hot-wings p {
+  color: #40514e;
+  line-height: 1.8;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
+}
+
+/* Chilli Image Size */
+.chilli-img {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+/* Contact Me Section */
+.contact-me {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact-me h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  margin-bottom: 20px;
+}
+
+.contact-me h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #11999e;
+  margin-bottom: 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 20px auto;
+  line-height: 1.6;
+  color: #40514e;
+}
+
+/* Contact Button */
+.btn {
+  background-color: #11cdd4;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0fa6ad;
+}
+
+/* Footer Section */
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #11999e;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+
+
